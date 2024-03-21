@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Exitialis/go-package-test/calculator"
+)
 
 func main() {
-	fmt.Println("hello world")
+	fmt.Println(calculator.Add(2, 3))
+	fmt.Println(calculator.Sub(2, 3))
 }
