@@ -9,4 +9,5 @@ import (
 func main() {
 	fmt.Println(calculator.Add(2, 3))
 	fmt.Println(calculator.Sub(2, 3))
+	fmt.Println(calculator.Sub(2, 3))
 }
